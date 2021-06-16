@@ -5,11 +5,18 @@
  compatible in running it in a raspberry pi 4 Model B, the main goal of this project is to give individuals a sense of privacy, security,    confidentiality and furthermore a free software.
 
 #This section is only if you are using a raspberry pi to run the server
-ArmadilloCloud (ArmaCloud) is able to run on Apache or Nginx
+ArmadilloCloud (ArmaCloud) is to be run an apache webserver
 the only requirements is
-1) You need to have your own Harddrive with any storage capacity (External Or Internal/ HDD or SSD), as ArmadilloCloud gives you the freedom of customisation
+1) You need to have your own Harddrive with any storage capacity (External Or Internal/ HDD or SSD), as ArmadilloCloud gives you the freedom of customisation (recommended to auto mount to avoid error)
 2) You require Raspberry Pi 4 Model B (Atleast 4GB RAM)
-3) Python3.7 >=
+
+The installer will assist in helping you to install the necessary dependencies.
+
+**Setup Installation -**
+Please Read the 'README!!!.txt' file within the zip folder for installation instructions
+you are also required to edit the settings.py file within ArmaCloud/ArmaCloud/settings.py as you need to scroll down and enable
+the following security settings if you wish to and add in your google mail account as a way to receive alerts of attempted logins
+
 
 ######################
 
